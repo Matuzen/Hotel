@@ -1,5 +1,6 @@
 ﻿using System;
 using Hotel.Entities;
+using Hotel.Entities.Exceptions;
 
 namespace Hotel
 {
@@ -7,20 +8,14 @@ namespace Hotel
     {
         static void Main(string[] args)
         {
-            Console.Write("Room number: ");
-            int number = int.Parse(Console.ReadLine());
-            Console.Write("Check-in date (dd/MM/yyyy): ");
-            DateTime checkin = DateTime.Parse(Console.ReadLine());
-            Console.Write("Check-out date (dd/MM/yyyy): ");
-            DateTime checkout = DateTime.Parse(Console.ReadLine());
+            try {
+                Console.Write("Room number: ");
+                int number = int.Parse(Console.ReadLine());
+                Console.Write("Check-in date (dd/MM/yyyy): ");
+                DateTime checkin = DateTime.Parse(Console.ReadLine());
+                Console.Write("Check-out date (dd/MM/yyyy): ");
+                DateTime checkout = DateTime.Parse(Console.ReadLine());
 
-            if (checkout <= checkin)
-            {
-                Console.WriteLine("Erro in reservation: check-out date be after check-in date");
-            }
-
-            else
-            {
                 Reservation reservation = new Reservation(number, checkin, checkout);
                 Console.WriteLine("Reservation: " + reservation);
 
@@ -31,19 +26,14 @@ namespace Hotel
                 Console.Write("Check-out date (dd/MM/yyyy): ");
                 checkout = DateTime.Parse(Console.ReadLine());
 
-                // Datas de atualização devem ser posteriores a data atual
+                reservation = new Reservation(number, checkin, checkout);
+                Console.WriteLine("Reservation: " + reservation);
 
-                string error = reservation.UpdateDates(checkin, checkout);
+            }
 
-                if (error != null)
-                {
-                    Console.WriteLine(error);
-                }
-
-                else
-                {
-                    Console.WriteLine("Reservation: " + reservation);
-                }
+            catch (DomainException e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
     }
