@@ -32,21 +32,16 @@ namespace Hotel
                 checkout = DateTime.Parse(Console.ReadLine());
 
                 // Datas de atualização devem ser posteriores a data atual
-                DateTime now = DateTime.Now; // Pega a data com um instante atual
-                if (checkin < now || checkout < now)
-                {
-                    Console.WriteLine("Error in reservation: Reservation dates for update must be future dates");
-                }
 
-                // Falata testar a data de saída se é maior que a data de entrada
-                else if (checkout <= checkin)
+                string error = reservation.UpdateDates(checkin, checkout);
+
+                if (error != null)
                 {
-                    Console.WriteLine("Erro in reservation: check-out date be after check-in date");
+                    Console.WriteLine(error);
                 }
 
                 else
                 {
-                    reservation.UpdateDates(checkin, checkout);
                     Console.WriteLine("Reservation: " + reservation);
                 }
             }

@@ -14,3 +14,19 @@ D:\# Aulas de Programação\Hotel\Console (Sem .NET)\Hotel\obj\Debug\net5.0\Hote
 D:\# Aulas de Programação\Hotel\Console (Sem .NET)\Hotel\obj\Debug\net5.0\ref\Hotel.dll
 D:\# Aulas de Programação\Hotel\Console (Sem .NET)\Hotel\obj\Debug\net5.0\Hotel.pdb
 D:\# Aulas de Programação\Hotel\Console (Sem .NET)\Hotel\obj\Debug\net5.0\Hotel.genruntimeconfig.cache
+D:\# Aulas de Programação\Hotel\Console\Hotel\bin\Debug\net5.0\Hotel.exe
+D:\# Aulas de Programação\Hotel\Console\Hotel\bin\Debug\net5.0\Hotel.deps.json
+D:\# Aulas de Programação\Hotel\Console\Hotel\bin\Debug\net5.0\Hotel.runtimeconfig.json
+D:\# Aulas de Programação\Hotel\Console\Hotel\bin\Debug\net5.0\Hotel.runtimeconfig.dev.json
+D:\# Aulas de Programação\Hotel\Console\Hotel\bin\Debug\net5.0\Hotel.dll
+D:\# Aulas de Programação\Hotel\Console\Hotel\bin\Debug\net5.0\ref\Hotel.dll
+D:\# Aulas de Programação\Hotel\Console\Hotel\bin\Debug\net5.0\Hotel.pdb
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\Hotel.csproj.AssemblyReference.cache
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\Hotel.GeneratedMSBuildEditorConfig.editorconfig
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\Hotel.AssemblyInfoInputs.cache
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\Hotel.AssemblyInfo.cs
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\Hotel.csproj.CoreCompileInputs.cache
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\Hotel.dll
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\ref\Hotel.dll
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\Hotel.pdb
+D:\# Aulas de Programação\Hotel\Console\Hotel\obj\Debug\net5.0\Hotel.genruntimeconfig.cache
